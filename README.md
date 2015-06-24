@@ -9,7 +9,7 @@ Running the daemon
 `docker run -d --name obdsim -v /dev/pts:/dev/pts qapps/obdsim [params]`
 
 
-available params:
+####available params:
 
     [-g|--generator=<name of generator>
        [-s|--seed=<generator-seed>]
@@ -28,3 +28,11 @@ available params:
     [-l|--list-generators]
     [-n|--benchmark=<seconds>]
     [-v|--version] [-h|--help]
+
+####The generators built into this sim:
+ "Random"
+ "Cycle" (default)
+ "Logger"
+ "dlopen"
+ "Socket"
+ "Error"
