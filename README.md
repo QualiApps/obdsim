@@ -38,7 +38,7 @@ Running the daemon
     "Socket"
     "Error"
 
-After installation you can use an any obd app to connect to obd simulator through /dev/pts/N
+After installation you can use an any app to connect to obd simulator through /dev/pts/N
 
 ####Example
 
