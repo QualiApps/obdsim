@@ -30,9 +30,18 @@ Running the daemon
     [-v|--version] [-h|--help]
 
 ####The generators built into this sim:
- "Random"
- "Cycle" (default)
- "Logger"
- "dlopen"
- "Socket"
- "Error"
+
+    "Random"
+    "Cycle" (default)
+    "Logger"
+    "dlopen"
+    "Socket"
+    "Error"
+
+After installation you can use an any obd app to connect to obd simulator through /dev/pts/N
+
+####Example
+
+    $ picocom /dev/pts/7
+    > 0100
+    41 00 FF FF FF FF
